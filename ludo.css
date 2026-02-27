@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; /* changed from 90vh */
+    background-color: rgb(32,34,56);
+}
+
+/* Reduced from 750px */
+.ludo{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+
+/* Reduced from 300px */
+.blue,.red,.yellow,.green{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{ background-color:royalblue; }
+.red{ background-color:red; }
+.yellow{ background-color:yellow; }
+.green{ background-color:green; }
+
+/* Reduced from 200px */
+.box{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Reduced from 60px + 20px margin */
+.box .insidebox{
+    width: 45px;
+    height: 45px;
+    margin:12px;
+}
+
+.blueFont{ color: royalblue; }
+.redFont{ color: red; }
+.yellowFont{ color: yellow; }
+.greenFont{ color: green; }
+
+.blueBackground{ background-color: royalblue; }
+.redBackground{ background-color: red; }
+.yellowBackground{ background-color: yellow; }
+.greenBackground{ background-color: green; }
+
+/* Reduced from 48px */
+.square{
+    width: 38px;
+    height: 38px;
+    border:1px solid black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.squareContainer{
+    display: flex;
+}
+
+/* Reduced from 750px × 150px */
+.row{
+    width:600px;
+    height:120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1{
+    display: flex;
+}
+
+/* Reduced from 150px */
+.ludoCenter{
+    font-size: 80px;
+    color:#ffd700;
+    position: absolute;
+    background-color: rgb(32,34,56);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
